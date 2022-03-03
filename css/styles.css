@@ -6,3 +6,7 @@ h1 {
   padding-left: 1rem;
   display: none;
 }
+
+.bouton-reset {
+  margin-top: 2%;
+}

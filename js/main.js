@@ -15,4 +15,9 @@ $(document).ready(function () {
     navigator.clipboard.writeText($("textarea").val());
     $(".texte-copie").css("display", "inline");
   });
+
+  // BOUTON RESET
+  $(".bouton-reset").click(function () {
+    window.location.reload(false);
+  });
 });
