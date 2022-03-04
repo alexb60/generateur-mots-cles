@@ -7,6 +7,10 @@ h1 {
   display: none;
 }
 
-.bouton-reset {
+.btn-reset-invisible {
+  visibility: hidden;
+}
+
+.bouton-reset-visible {
   margin-top: 2%;
 }
