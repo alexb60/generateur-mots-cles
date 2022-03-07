@@ -22,6 +22,8 @@ $(document).ready(function () {
 
   // BOUTON RESET
   $(".bouton-reset").click(function () {
-    window.location.reload(false);
+    $("input").val("");
+    $("textarea").val("");
+    // window.location.reload(false);
   });
 });
