@@ -24,6 +24,6 @@ $(document).ready(function () {
   $(".bouton-reset").click(function () {
     $("input").val("");
     $("textarea").val("");
-    // window.location.reload(false);
+    $(".texte-copie").css("display", "none");
   });
 });
